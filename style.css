@@ -14,14 +14,15 @@ body{
     background-size: cover;
     background-repeat: no-repeat; */
 }
-main, header{
+main, header {
     padding: 0 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 footer{
     max-width: 1200px;
-    margin: 0;}
+    margin: 0;
+}
 header{
     background-color:Dark/15;
     width: 100%;
@@ -131,6 +132,7 @@ header::after{
     padding: 18px 30px;
     border-radius: 12px;
     border: 2px solid;
+    /* transition: 0.8s ; */
     a{
         text-decoration:none ;
         color:#0F0F0F ;
@@ -142,6 +144,7 @@ header::after{
 .contact-button:hover{
     scale: 1.05;
     background-color:#aa7651;
+    /* transform: scale(1.1); */
 }
 main{
     width: 100%;
@@ -347,8 +350,7 @@ main .section-1-article{
     display: flex;
     flex-direction: column; 
     gap: 30px;
-    padding-left: 30px;
-    padding-right: 10px;
+    padding: 0 10px 15px 30px; 
 }
 .section-2 .figure-box article .icon-container{ 
     display: flex;
@@ -423,7 +425,22 @@ main .section-1-article{
     width: 326px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+    /* transition: 0.8s; */
 }
+/* .product-img:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+} */
+/* .product-img-1:hover{
+    transform: scale(1.1);
+} */
+/* .shop figure:hover{
+    transform: scale(1.1);
+    transition: 0.8s; 
+}
+.shop{
+    overflow: hidden;
+} */
 .button-shop-container{
     display: flex;
     align-items: center;
@@ -482,7 +499,6 @@ main .section-1-article{
     margin-left: 5px;
 }
 .shop-figure-2{
-    
     border-left:2px dashed #ffffff33 ;
     border-right: 2px dashed #ffffff33;
 }
@@ -494,7 +510,6 @@ main .section-1-article{
 .shop-figure-4{
     border-top: 2px dashed #ffffff33;
     /* border-left:2px dashed #ffffff33 ; */
-    
 }
 .shop-figure-6{
     border-top: 2px dashed #ffffff33;
@@ -518,7 +533,6 @@ main .section-1-article{
 }
 .article-container article{
     padding: 30px;
-    
 }
 .article-container article h4{
     font-size: 24px;
@@ -532,6 +546,7 @@ main .section-1-article{
     font-weight: 400;
     line-height: 150%;
     margin-top: 15px;
+
 }
 .article-container{
     display: grid;
@@ -647,4 +662,7 @@ main .section-1-article{
     a{
         color: #81807E;
     }
+}
+.img-background-decoration{
+    height: 193px;
 }
