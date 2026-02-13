@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/fu6fFS4S)
 [დავალების ლინკი](https://www.figma.com/design/LrCfXSb63whwruzhSmM6pE/Ecommerce-Website-UI-Template-Design---Dark-Theme--Community---Copy-)
 
 ## Nav bar - Header
@@ -40,9 +41,9 @@ scale(1.1)-ით ანიმაციის სახით
 
 ---
 
-თითოეულ კითხვაზე რომელიც მოცემულ კომპონენტშა ჩასმული, მაუსის მიტანისას
-შეიცვალოს ტექსტის ფერი ანიმაციის სახით
-
+თითოეულ ხით
+კითხვაზე რომელიც მოცემულ კომპონენტშა ჩასმული, მაუსის მიტანისას
+შეიცვალოს ტექსტის ფერი ანიმაციის სა
 გამოიყენეთ transition
 
 ## Footer
