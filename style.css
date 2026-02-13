@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-style:Roboto Mono;
+    font-family:'Roboto Mono';
 }
 a{
     text-decoration: none;
@@ -10,9 +11,6 @@ a{
 body{
     background-color: black;
     margin: 0;
-    /* background-image: url(./assets/f8095e6d55a76e6cff424c50ed846cf8bb2e8423.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 main, header {
     padding: 0 20px;
@@ -27,7 +25,6 @@ header{
     background-color:Dark/15;
     width: 100%;
     height: 123px;
-    /* border-bottom: 2px dashed #ffffff33; */
     position: relative;
 }
 header::before{
@@ -82,7 +79,6 @@ header::after{
     a{
         color: #FFFFFF;
         text-decoration: none;
-        font-style: Roboto Mono;
         font-weight: 400;
         font-size: 18px;
         display: inline-block;
@@ -106,7 +102,6 @@ header::after{
     a{
         color: #B3B3B2;
         text-decoration: none;
-        font-style: Roboto Mono;
         font-weight: 400;
         font-size: 18px;
     }
